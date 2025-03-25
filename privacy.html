@@ -1,40 +1,83 @@
-隐私政策
-生效日期：2025年03月25日  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Sensitive Word Detection Tool - Privacy Policy</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 2rem }
+        h1 { color: #2c3e50; border-bottom: 2px solid #3498db }
+        h2 { color: #34495e; margin-top: 1.5rem }
+        table { border-collapse: collapse; width: 100%; margin: 1rem 0 }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: left }
+        th { background-color: #f8f9fa }
+        ul { padding-left: 1.5rem }
+        a { color: #3498db }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy for Amazon Sensitive Word Detection Tool</h1>
+    <p><em>Effective Date: March 25, 2025</em></p>
 
-一、引言
-本隐私政策适用于Amazon Sensitive Word Detection Tool（以下简称“本扩展”），旨在说明我们如何保护您的数据权益。本扩展不收集、存储或传输任何用户个人信息，所有数据处理均在您的设备本地完成。  
+    <h2>1. Introduction</h2>
+    <p>This privacy policy applies to the <strong>Amazon Sensitive Word Detection Tool</strong> Chrome extension (hereafter "the Extension"). We are committed to protecting your data privacy through local processing and zero data collection principles[6,7](@ref).</p>
 
-二、数据存储与使用
-1. 本地存储
-• 敏感词库及配置信息仅存储在浏览器本地（chrome.storage.local），不上传至任何服务器。
-• 您可通过扩展设置页面随时清除所有本地数据。  
-2. 文档处理
-• 上传的文档（.txt/.doc/.pdf等）仅在内存中临时解析，不保存副本或分享至第三方。检测完成后文件内容立即销毁。
+    <h2>2. Data Storage & Usage</h2>
+    <h3>2.1 Local Storage</h3>
+    <ul>
+        <li>Sensitive word libraries and configurations are stored exclusively in browser local storage (<code>chrome.storage.local</code>)</li>
+        <li>All data remains on your device and is never uploaded to servers[9](@ref)</li>
+    </ul>
 
-三、权限说明
-权限名称	用途说明	数据影响范围
-storage	保存用户自定义敏感词库及扩展设置	仅本地设备存储
-activeTab	检测当前网页内容以高亮敏感词	仅当前标签页内容访问
-scripting	动态注入脚本实现网页文字高亮	不修改网页原始数据
-fileSystem.read	读取用户主动上传的文档文件（需手动选择）	临时内存处理
-downloads	导出敏感词库为本地文件	用户指定存储路径
+    <h3>2.2 Document Processing</h3>
+    <ul>
+        <li>Uploaded documents (.txt/.doc/.pdf etc.) are temporarily parsed in memory</li>
+        <li>File contents are destroyed immediately after analysis[7](@ref)</li>
+    </ul>
 
-四、用户权利保障
-1. 数据控制权
-• 可随时通过扩展设置删除敏感词库或重置配置。
-• 支持通过“导出/导入”功能完全自主管理词库。  
-2. 透明度承诺
-• 本扩展不含广告追踪代码、第三方分析工具或数据共享接口。
+    <h2>3. Permission Declaration</h2>
+    <table>
+        <tr>
+            <th>Permission</th>
+            <th>Purpose</th>
+            <th>Data Scope</th>
+        </tr>
+        <tr>
+            <td><code>storage</code></td>
+            <td>Save custom word libraries & settings</td>
+            <td>Local device storage</td>
+        </tr>
+        <tr>
+            <td><code>activeTab</code></td>
+            <td>Analyze current webpage content</td>
+            <td>Current tab only</td>
+        </tr>
+        <tr>
+            <td><code>scripting</code></td>
+            <td>Dynamic text highlighting</td>
+            <td>Non-modification of original content</td>
+        </tr>
+        <tr>
+            <td><code>fileSystem.read</code></td>
+            <td>Process user-selected documents</td>
+            <td>Temporary memory access</td>
+        </tr>
+    </table>
 
-五、政策更新
-• 本政策更新将通过扩展更新日志通知，最新版本始终发布于Chrome Web Store产品页。  
+    <h2>4. User Rights</h2>
+    <ul>
+        <li>Complete control over local data through extension settings</li>
+        <li>One-click data purge functionality</li>
+        <li>No third-party tracking or analytics[9](@ref)</li>
+    </ul>
 
-六、联系我们
-• 隐私问题反馈邮箱：shengjun5221@gmail.com
+    <h2>5. Policy Updates</h2>
+    <p>Changes will be notified via <a href="[Chrome Web Store Listing URL]">extension update logs</a>. The latest version is always available on our Chrome Web Store page.</p>
 
-注：本政策基于本地数据处理场景设计，符合Chrome扩展《开发者计划政策》第6.3条（用户数据隐私）要求。  
+    <h2>6. Contact Information</h2>
+    <p>For privacy inquiries: <a href="mailto:your-email@domain.com">your-email@domain.com</a></p>
 
-如需部署此政策，建议：  
-1. 将文本保存为HTML文件，通过GitHub Pages免费托管（生成公开链接如https://yourusername.github.io/privacy）  
-2. 在扩展设置页添加政策入口（示例代码）：
-chrome.runtime.openOptionsPage('privacy.html');  
+    <hr>
+    <p><small>This policy complies with Chrome's <a href="https://developer.chrome.com/docs/extensions/mv3/faq/#user-data" target="_blank">User Data Privacy Guidelines</a> (Section 6.3 of Developer Program Policies)</small></p>
+</body>
+</html>
