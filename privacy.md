@@ -1,3 +1,58 @@
+# Privacy Policy
+**Effective Date:** March 25, 2025  
+
+---
+
+### **1. Introduction**  
+This Privacy Policy applies to the **Amazon Sensitive Word Detection Tool** (hereinafter referred to as "the Extension") and outlines how we protect your data rights. **The Extension does not collect, store, or transmit any user personal information.** All data processing occurs locally on your device.  
+
+---
+
+### **2. Data Storage & Usage**  
+**Local Storage**  
+• Sensitive word libraries and configuration settings are stored exclusively in your browser’s local storage (`chrome.storage.local`) and are **not uploaded to any servers**.  
+• You may delete all local data at any time via the Extension’s settings page.  
+
+**Document Processing**  
+• Uploaded documents (e.g., .txt, .doc, .pdf) are temporarily parsed **in memory only**; no copies are saved or shared with third parties. File content is **immediately destroyed** after detection completes.  
+
+---
+
+### **3. Permissions Overview**  
+| **Permission**         | **Purpose**                                  | **Data Scope**                          |  
+|-------------------------|----------------------------------------------|-----------------------------------------|  
+| `storage`               | Save custom word libraries and settings      | Local device storage only               |  
+| `activeTab`             | Detect and highlight sensitive words on web pages | Current tab content access only         |  
+| `scripting`             | Inject scripts to dynamically highlight text | No modification to original page data   |  
+| `fileSystem.read`       | Read user-uploaded documents (manual selection required) | Temporary in-memory processing          |  
+| `downloads`             | Export word libraries to local files         | User-specified storage path             |  
+
+---
+
+### **4. User Rights**  
+**Data Control**  
+• Delete word libraries or reset configurations at any time via the Extension settings.  
+• Manage word libraries independently using the **Export/Import** feature.  
+
+**Transparency Commitment**  
+• The Extension contains **no advertising trackers, third-party analytics tools, or data-sharing interfaces**.  
+
+---
+
+### **5. Policy Updates**  
+• Updates to this policy will be notified via the Extension’s changelog. The latest version will always be published on the **Chrome Web Store product page**.  
+
+---
+
+### **6. Contact Us**  
+• Privacy-related inquiries: [shengjun5221@gmail.com](mailto:shengjun5221@gmail.com)  
+
+---  
+
+**Note:** This policy is designed for local data processing scenarios and complies with **Section 6.3 (User Data Privacy)** of the Chrome Extensions *Developer Program Policies*.
+
+---
+
 # 隐私政策  
 **生效日期：2025年03月25日**  
 
